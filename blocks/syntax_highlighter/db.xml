@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btSyntaxHighlighter">
+        <field name="bID" type="I">
+            <key />
+            <unsigned />
+        </field>
+        <field name="code" type="X2">
+      
+        </field>
+        <field name="language" type="C" size="100">
+      
+        </field>
+        <field name="tabWidth" type="I">
+            <unsigned />
+            <default value="3" />
+        </field>
+        <field name="highlightKeywords" type="I1">
+            <unsigned />
+            <default value="0" />
+        </field>
+        <field name="strictMode" type="I1">
+            <unsigned />
+            <default value="0" />
+        </field>
+        <field name="showLineNumbers" type="I1">
+            <unsigned />
+            <default value="0" />
+        </field>
+        <field name="wrapOverflowText" type="I1">
+            <unsigned />
+            <default value="0" />
+        </field>
+    </table>
+</schema>
